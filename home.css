@@ -1,0 +1,333 @@
+/*--------------------------------------- all paged are link with following codes --------------------------------------- */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.sidebar {
+    width: 10%;
+    height: 780px;
+    padding: 20px;
+    background-color: #000000;
+    position: fixed;
+    float: left;
+}
+
+.content {
+    width: 85%;
+    height: 20cm;
+    padding: 20px;
+    background-color: #565454;
+    margin-left: 5cm;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sidebar ul li a:hover {
+    color: #f73f3f;
+}
+
+/* --------------------------------------------------------- left bar -------------------------------------------------*/
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 2.5cm;
+}
+#rtlog{
+    margin-left: 0.5cm;
+}
+#hm{
+    margin-left: 1cm;
+    margin-bottom: 2.5cm;
+}
+#about{
+    margin-left: 1cm;
+    margin-bottom: 2.5cm;
+}
+#projects{
+    margin-left: 1cm;
+    margin-bottom: 2.5cm;
+}
+#contact{
+    margin-left: 0.7cm;
+    margin-bottom: 2.5cm;
+}
+
+/* --------------------------------------- home page content --------------------------------------- */
+
+#home{
+    color: #fa3838;
+    text-align: center;
+}
+#home2{
+    color: #fa3838;
+    text-align: center;
+}
+#hcnt{
+    color: #39f9e6;
+    font-family: cursive;
+    font-size: 0.5cm;
+    padding: 4px;
+}
+#hccnt{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.5cm;
+    padding: 4px;
+}
+#myimg{
+    border-radius: 70%;
+    align-content: center;
+    margin-bottom: -5px;
+    margin-top: 2cm;
+}
+#name{
+    text-align: center;
+    color: #a5ff4b;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+#namehr{
+    width: 25%;
+    margin-top: -45px;
+}
+#cmpname{
+    text-align: center;
+    color: azure;
+    margin-bottom: 1cm;
+}
+#cmphr{
+    width: 20%;
+    margin-top: -35px;
+}
+#hmcont{
+    color: azure;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#hmlog{
+    height: 20cm;
+    width: 13cm;
+}
+.contenta {
+    width: 85%;
+    height: 42cm;
+    padding: 20px;
+    background-color: #5b5a5a;
+    margin-left: 5cm;
+
+}
+
+/* --------------------------------------- skill bar --------------------------------------- */
+
+#myskl{
+    color: aliceblue;
+    padding-left: 20px;
+}
+#skl{
+    text-align: center;
+    padding-left: 20px;
+    color: aliceblue;
+    margin-top: 2cm;
+}
+.containerskl{
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(111, 111, 111);
+  }
+  
+  .Programming {width: 90%; background-color: #202020;}
+  .Photography {width: 80%; background-color: #202020;}
+  .photoshop {width: 65%; background-color: #202020;}
+
+  .row {
+    margin-top: 3cm;
+    height: 3cm;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+  }
+  
+  .col-md-3 {
+    margin-top: 0.5cm;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .number-box {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .number {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #797979;
+  }
+  #resume{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: 1px;
+    margin-top: 1cm;
+    height: 30px;
+    width: 5cm;
+    background-color: #ffffff;
+  }
+  #rsmtxt{
+  margin-left: 15px;
+  }
+  /*--------------------------------------- now for the project page ---------------------------------------*/
+#marquee-proj{
+    background-color: #ffffff;
+    margin-left: -20px;
+    margin-right: -10px;
+    margin-top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content-proj {
+    width: 85%;
+    height: 20cm;
+    position: fixed;
+    padding: 20px;
+    background-color: #565454;
+    margin-left: 5cm;
+}
+  #prj{
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+#pcnt{
+    font-size: 0.7cm;
+    color: #62f1e7;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#under-maintainance{
+    margin-top: 50px;
+    text-align: left;
+    color: #f10000;
+}
+#under-maintainance1{
+    text-align: left;
+    color: #ffffff;
+    font-size: 17px;
+    margin-top: -20px;
+}
+#pic-left-project{
+width: 15cm;
+height: 15cm;
+margin-top: -6cm;
+margin-left: 17cm;
+}
+/*--------------------------------------- now for the contact page ---------------------------------------*/
+.contentcnt{
+    width: 85%;
+    height: 20cm;
+    padding: 20px;
+    background-color: #565454;
+    margin-left: 5cm;
+}
+#feelfree{
+    text-align: center;
+    color: rgb(129, 185, 235);
+    font-family: cursive;
+    margin-top: -20px;
+}
+.wrap-cnt{
+    height: 13cm;
+    width: 7cm;
+    background-color: white;
+    padding-left:0cm;
+    padding-top: 1cm;
+    padding-right: 4cm;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 19cm;
+}
+#wrap-title{
+    height: 90px;
+    width: 11cm;
+    background: linear-gradient(-135deg, rgb(34, 191, 249), rgb(232, 72, 72));
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px 15px 0 0;
+    margin-left: 19cm;
+    margin-top: -17cm;
+}
+.input_box{
+    width: 100%;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    margin-top: 30px;
+    margin-left: 40px;
+    position: relative;
+}
+.input_box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    padding: 7px 0px;
+    background-color: #ffffff;
+}
+.input_box label{
+    position: absolute;
+    left: 0px;
+    font-size: 25px;
+    top: 8px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input_box input:focus + label,
+.input_box input:valid + label{
+    top: -15px;
+    font-size: 18px;
+    background-color: rgb(216, 243, 253);
+    color: rgb(0, 0, 255)
+}
+#contact-img{
+height: 15cm;
+width: 16cm;
+}
+ #submit-rpt{
+    background: linear-gradient(-135deg, rgb(34, 249, 52), rgb(104, 72, 232));
+    color: #ffffff;
+    font-size: large;
+    width: 175px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 3cm;
+    border-radius: 100px;
+ }
