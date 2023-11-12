@@ -1,0 +1,130 @@
+body{
+    background-color: #e1e0e0;
+}
+.outline{
+    outline:auto;
+    height: 15cm;
+    color: rgb(0, 255, 68);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+.photo{
+    border-radius: 70%;
+    height: 6cm;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.name{
+    text-align: left;
+    margin-top: -5cm;
+    margin-left: 7cm;
+    margin-bottom: -16px;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.coding{
+    height: 15px;
+    width: 15px;
+    margin-left: 270px;
+}
+#wb-developing{
+    margin-left: 295px;
+    font-weight: bold;
+    margin-top: -20px;
+    color: rgb(0, 0, 0);
+}
+.location{
+    height: 15px;
+    width: 15px;
+    margin-left: 270px;
+}
+#lctn{
+    color: black;
+    margin-left: 295px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+.exp{
+    margin-top: 3cm;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+#html{
+    color: black;
+    margin-top: -10px;
+}
+#skills{
+    width: 15cm;
+    height: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+#h-skills{
+    text-align: right;
+    background-color: rgb(255, 0, 0);
+    width: 14cm;
+    height: 15px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+#css-skills{
+    text-align: right;
+    height: 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    width: 12cm;
+    color: rgb(255, 255, 255);
+}
+#js-skills{
+    text-align: right;
+    height: 15px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    width: 6cm;
+    color: rgb(255, 255, 255);
+}
+#rt-cnt{
+margin-left: 27cm;
+margin-top: -12cm;
+color: aliceblue;
+margin-right: 1cm;
+}
+#title{
+    margin-left: 40px;
+    color: rgb(157, 127, 255);
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+}
+hr{
+    margin-top: 20px;
+    border-color: rgb(0, 0, 0);
+}
+#btm-logo{
+    height: 3cm;
+    margin-bottom: 20px;
+}
+#btm-lctn{
+    margin-left:-87px;
+    height: 1cm;
+}
+#sd-cnt{
+    margin-top: -30px;
+    margin-left: 80px;
+}
+#main-cnt-btm{
+    margin-top: -105px;
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+}
+#rht-btm{
+    margin-left: 27cm;
+    margin-top: -110px;
+    font-family: 'Courier old', Courier, monospace;
+}
