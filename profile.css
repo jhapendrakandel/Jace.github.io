@@ -3,9 +3,6 @@ html {
     font-size:100%; 
 }
 @media screen and (max-width:650px){
-    html{
-        font-size: larger;
-    }
     body{
         width: 650px;
     }
