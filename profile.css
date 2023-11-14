@@ -1,9 +1,28 @@
-body{
-    background-color: #e1e0e0;
+
+html { 
+    font-size:100%; 
+}
+@media screen and (max-width:650px){
+    html{
+        font-size: larger;
+    }
+    body{
+        width: 650px;
+    }
+    p{
+        font-size: medium;
+    }
+    #main-cnt-btm{
+        margin-left: -50px;
+    }
+    #rht-btm{
+        margin-left: -18cm;
+    }
 }
 .outline{
     outline:auto;
     height: 15cm;
+    width: auto;
     color: rgb(0, 255, 68);
     margin-left: 20px;
     margin-top: 20px;
@@ -15,7 +34,7 @@ body{
     height: 6cm;
     margin-top: 20px;
     margin-left: 20px;
-    filter: blur(15px);
+    filter: blur(2px);
 }
 .name{
     text-align: left;
@@ -71,6 +90,7 @@ body{
     height: 15px;
     border-radius: 20px;
     color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
 #css-skills{
     text-align: right;
@@ -79,6 +99,7 @@ body{
     border-radius: 20px;
     width: 12cm;
     color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
 #js-skills{
     text-align: right;
@@ -87,6 +108,7 @@ body{
     border-radius: 20px;
     width: 6cm;
     color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 }
 #rt-cnt{
 margin-left: 27cm;
@@ -94,14 +116,7 @@ margin-top: -12cm;
 color: aliceblue;
 margin-right: 1cm;
 }
-#title{
-    margin-left: 40px;
-    color: rgb(157, 127, 255);
-}
-p{
-    color: rgb(0, 0, 0);
-    font-size: large;
-}
+
 hr{
     margin-top: 20px;
     border-color: rgb(0, 0, 0);
@@ -125,7 +140,7 @@ hr{
     font-size: xx-large;
 }
 #rht-btm{
-    margin-left: 27cm;
+    padding-left: 30cm;
     margin-top: -110px;
     font-family: 'Courier old', Courier, monospace;
 }
