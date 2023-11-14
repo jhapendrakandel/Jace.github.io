@@ -31,7 +31,6 @@ html {
     height: 6cm;
     margin-top: 20px;
     margin-left: 20px;
-    filter: blur(2px);
 }
 .name{
     text-align: left;
