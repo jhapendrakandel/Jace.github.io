@@ -28,7 +28,7 @@ body{
     height: 6cm;
     margin-top: 20px;
     margin-left: 20px;
-    filter: blur(2px);
+    filter: blur(0px);
 }
 .name{
     text-align: left;
