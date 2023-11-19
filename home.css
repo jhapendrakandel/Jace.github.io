@@ -1,9 +1,29 @@
 /*--------------------------------------- all paged are link with following codes --------------------------------------- */
+@media screen and (max-width: 830px) {
+    #contact-img{
+        height: 30px;
+        width:300px;
+        display: none;
+    }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+}
+
+
+.content {
+    width: 100%;
+    height: 90%;
+    padding-top: 90px;
+    background-color: #4e4e4e;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#rtlog{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
 }
 
 .container {
@@ -14,38 +34,30 @@ body {
 }
 
 .sidebar {
-    width: 10%;
-    height: 780px;
-    padding: 20px;
+    width: 100%;
+    height: 8%;
     background-color: #000000;
     position: fixed;
-    float: left;
+    top: 0;
+}
+#hm{
+    padding-left: 80px;
+}
+.sidebar p {
+    display: inline;
+    padding: 0px;
+    margin-top: 90px;
+    line-height: 80px;
 }
 
-.content {
-    width: 85%;
-    height: 20cm;
-    padding: 20px;
-    background-color: #565454;
-    margin-left: 5cm;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar ul li {
-    padding: 10px 0;
-}
-
-.sidebar ul li a {
+.sidebar p a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.sidebar ul li a:hover {
+.sidebar p a:hover {
     color: #f73f3f;
+    background-color: #ddd;
 }
 
 /* --------------------------------------------------------- left bar -------------------------------------------------*/
@@ -54,9 +66,6 @@ img{
     width: 100px;
     height: 100px;
     margin-bottom: 2.5cm;
-}
-#rtlog{
-    margin-left: 0.5cm;
 }
 #hm{
     margin-left: 1cm;
@@ -131,15 +140,6 @@ img{
     height: 20cm;
     width: 13cm;
 }
-.contenta {
-    width: 85%;
-    height: 42cm;
-    padding: 20px;
-    background-color: #5b5a5a;
-    margin-left: 5cm;
-
-}
-
 /* --------------------------------------- skill bar --------------------------------------- */
 
 #myskl{
@@ -217,12 +217,12 @@ img{
     font-family: 'Courier New', Courier, monospace;
 }
 .content-proj {
-    width: 85%;
-    height: 20cm;
-    position: fixed;
-    padding: 20px;
-    background-color: #565454;
-    margin-left: 5cm;
+    width: 100%;
+    height: 90%;
+    padding-top: 90px;
+    background-color: #4e4e4e;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
   #prj{
     color: rgb(255, 255, 255);
@@ -232,7 +232,7 @@ img{
 #pcnt{
     font-size: 0.7cm;
     color: #62f1e7;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regspanar', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #under-maintainance{
     margin-top: 50px;
@@ -253,11 +253,12 @@ margin-left: 17cm;
 }
 /*--------------------------------------- now for the contact page ---------------------------------------*/
 .contentcnt{
-    width: 85%;
-    height: 20cm;
-    padding: 20px;
-    background-color: #565454;
-    margin-left: 5cm;
+    width: 100%;
+    height: 90%;
+    padding-top: 90px;
+    background-color: #4e4e4e;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #feelfree{
     text-align: center;
