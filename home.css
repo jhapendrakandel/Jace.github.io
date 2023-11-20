@@ -246,11 +246,21 @@ img{
     margin-top: -20px;
 }
 #pic-left-project{
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    height: auto;
+    width: 500px;
+}
+
+/*
+#pic-left-project{
 width: 15cm;
 height: 15cm;
 margin-top: -6cm;
 margin-left: 17cm;
 }
+*/
 /*--------------------------------------- now for the contact page ---------------------------------------*/
 .contentcnt{
     width: 100%;
