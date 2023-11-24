@@ -57,8 +57,30 @@
 
 .sidebar p a:hover {
     color: #f73f3f;
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+/* hehe (..) */
+@keyframes hoverAnimation {
+    0% {
+      transform: translateY(0);
+      background-color: #ff0000;
+      padding: 0;
+    }
+    100% {
+      transform: translateY(-10px);
+      background-color: rgb(255, 255, 255);
+      padding: 30px 20px 16px 20px;
+    }
+  }
+  
+  .sidebar p a:hover {
+    animation: hoverAnimation 0.5s ease-in-out;
+  }
 
 /* --------------------------------------------------------- left bar -------------------------------------------------*/
 
