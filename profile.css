@@ -11,31 +11,46 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 } 
+body[data-theme="dark"] {
+    color: white;
+}
 .outline{
     outline:auto;
     height: 567px;
     width: 600px;
-    color: rgb(0, 255, 68);
+    outline-color: aquamarine;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;
     padding: 20px;
-    /* just added this only */
     padding-bottom: 30px;
 }
+button{
+    float: right;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 50px;
+    border-color: blue;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    border-color: crimson;
+    color: white;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+} 
 .photo{
     border-radius: 70%;
     height: 6cm;
     margin-top: 20px;
     margin-left: 20px;
-    filter: blur(0px);
+    filter: blur(2px);
 }
 .name{
     text-align: left;
     margin-top: -5cm;
     margin-left: 7cm;
     margin-bottom: -16px;
-    color: rgb(0, 0, 0);
     font-family: monospace;
     font-size: 35px;
     margin-bottom: 20px;
@@ -49,7 +64,7 @@ body{
     margin-left: 295px;
     font-weight: bold;
     margin-top: -20px;
-    color: rgb(0, 0, 0);
+
 }
 .location{
     height: 15px;
@@ -57,24 +72,23 @@ body{
     margin-left: 270px;
 }
 #lctn{
-    color: black;
+
     margin-left: 295px;
     margin-top: -20px;
     font-weight: bold;
 }
 .exp{
     margin-top: 3cm;
-    color: black;
+
     font-family: 'Courier New', Courier, monospace;
 }
 #html{
-    color: black;
     margin-top: -10px;
 }
 #skills{
     width: 15cm;
     height: 15px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(78, 206, 210);
     border-radius: 20px;
 }
 #h-skills{
@@ -129,7 +143,6 @@ margin-right: 1cm;
 
 hr{
     margin-top: 20px;
-    border-color: rgb(0, 0, 0);
     width: 670px;
     margin-left: -1px;
 }
@@ -155,6 +168,15 @@ hr{
     padding-left: 460px;
     margin-top: -110px;
     font-family: 'Courier old', Courier, monospace;
+}
+a{
+    color: rgb(58, 111, 209);
+}
+#mrq-abt{
+    margin-top: 40px;
+    margin-bottom: -40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(245, 162, 162);
 }
 /* here is the css for unwanted part of web */ 
 .unwanted{
