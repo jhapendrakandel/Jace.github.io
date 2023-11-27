@@ -8,9 +8,37 @@
     <link rel="stylesheet" href="profile.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
+<script>
+    function both() {
+    setTimeout(text, 0); // run 'text' function after a delay of 0 milliseconds
+    setTimeout(myFunction, 0); // run 'myFunction' function after a delay of 0 milliseconds
+}
+
+function myFunction() {
+    document.body.style.backgroundColor = "black";
+    document.body.style.color = "white";
+}
+
+function text() {
+    var btn = document.getElementById('btn');
+    if (btn.innerText === 'Light-theme') {
+        btn.innerText = 'Light-theme';
+        setTimeout(location.reload.bind(location), 0); // refresh the page after a delay of 0 milliseconds
+    } else {
+        btn.innerText = 'Light-theme';
+    }
+}
+
+document.getElementById('btn').addEventListener('click', function() {
+    both();
+});
+    </script>
 <div class="content">
 <body>
     <div class="outline">
+        <div>
+            <button onclick="both()" id="button"><p id="btn">Dark-Theme</p></button>
+        </div>
     <img src="myimg-org.png" class="photo">
     <h1 class="name">Jhapendra kandel (uki)</h1>
 
@@ -19,6 +47,15 @@
 
     <img src="location.png" class="location">
     <p id="lctn">Kathmandu, Nepal</p>
+
+    <marquee id="mrq-abt"> A high school student at Uniglobe College with an insatiable curiosity about computers and programming, 
+        I am dedicated to learning and exploring the boundless possibilities of technology. 
+        My knowledge spans a wide spectrum, and I am eager to shape the future through my understanding of
+         this powerful tool. Together with others, I embark on journeys of creativity, transforming ideas into 
+         tangible realities through the power of programming. I am the future of technology,
+          a force to be reckoned with in the ever-changing digital landscape.
+     </marquee>
+
     <!--here starts the roles and experence-->
     <h1 class="exp"> Roles and experence:</h1>
 
@@ -54,27 +91,27 @@
     <hr>
     <!--bottom of page-->
     <div id="bottom">
-        <a href="https://jhapendrakandel.github.io/Jace.github.io" style="color: black;">
+        <a href="https://jhapendrakandel.github.io/Jase.github.io" style="color: black;">
         <img id="btm-logo" src="logo.png">
         </a>
         <img id="btm-lctn" src="location.png">
         <p id="sd-cnt">Japan, tokoyo</p>
         <p id="main-cnt-btm">
-            Powered by <a href="https://jhapendrakandel.github.io/Jace.github.io" style="color: black;">Jace.</a>
+            Powered by <a href="https://jhapendrakandel.github.io/Jase.github.io">Jase.</a>
         </p>
     </div>
     <!--bottom of page (right side)-->
     <div id="rht-btm">
-        <p><a href="https://jhapendrakandel.github.io/Jace.github.io" style="color: black;">
+        <p><a href="https://jhapendrakandel.github.io/Jase.github.io">
             Home
         </a></p>
-        <p><a href="https://jhapendrakandel.github.io/Jace.github.io/About" style="color: black;">
+        <p><a href="https://jhapendrakandel.github.io/Jase.github.io/About" >
             About us
         </a></p>
-        <p><a href="https://jhapendrakandel.github.io/Jace.github.io/projects" style="color: black;">
+        <p><a href="https://jhapendrakandel.github.io/Jase.github.io/projects">
             Our Projects
         </a></p>
-        <p><a href="https://jhapendrakandel.github.io/Jace.github.io/contact" style="color: black;">
+        <p><a href="https://jhapendrakandel.github.io/Jase.github.io/contact">
             Contact us
         </a></p>
     </div>
