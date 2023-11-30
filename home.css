@@ -1,14 +1,17 @@
+
+/* ^^^^^^^^^^^^^------^^^^^^^^^^^^--------^^^^^^^^^^^Trial code area ^^^^^----^^^^^^^^ */
 /*--------------------------------------- all paged are link with following codes --------------------------------------- */
+
 @media screen and (max-width: 830px) {
     #contact-img{
-        height: 30px;
-        width:300px;
         display: none;
     }
 
 }
-
-
+*{
+    padding: 0;
+    margin: 0;
+}
 .content {
     width: 100%;
     height: 90%;
@@ -24,7 +27,7 @@
     top: 0;
     left: 0;
     margin-left: 10px;
-}
+} 
 
 .container {
     display: flex;
@@ -42,6 +45,7 @@
 }
 #hm{
     padding-left: 80px;
+    background-clip: content-box;
 }
 .sidebar p {
     display: inline;
@@ -49,12 +53,16 @@
     margin-top: 90px;
     line-height: 80px;
 }
-
+.sidebar .active{
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: #756262;
+}
 .sidebar p a {
     text-decoration: none;
     color: #ffffff;
+    transition: all 0.5s ease-in-out; 
 }
-
 .sidebar p a:hover {
     color: #f73f3f;
     background-color: rgb(255, 255, 255);
@@ -82,6 +90,7 @@
     animation: hoverAnimation 0.5s ease-in-out;
   }
 
+  
 /* --------------------------------------------------------- left bar -------------------------------------------------*/
 
 img{
@@ -298,26 +307,29 @@ margin-left: 17cm;
     font-family: cursive;
     margin-top: -20px;
 }
+.contact-frm{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
 .wrap-cnt{
     height: 13cm;
-    width: 7cm;
-    background-color: white;
-    padding-left:0cm;
+    width: 245px;
+    background-color: #ffffff;
     padding-top: 1cm;
     padding-right: 4cm;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    margin-left: 19cm;
+    margin-left: 20px;
 }
 #wrap-title{
     height: 90px;
-    width: 11cm;
+    width: 396px;
     background: linear-gradient(-135deg, rgb(34, 191, 249), rgb(232, 72, 72));
     text-align: center;
     padding-top: 20px;
     border-radius: 15px 15px 0 0;
-    margin-left: 19cm;
-    margin-top: -17cm;
+    margin-left: 20px;
 }
 .input_box{
     width: 100%;
@@ -347,15 +359,22 @@ margin-left: 17cm;
 .input_box input:valid + label{
     top: -15px;
     font-size: 18px;
-    background-color: rgb(216, 243, 253);
-    color: rgb(0, 0, 255)
+    background-color: rgb(227, 245, 251);
+    color: rgb(76, 76, 249)
 }
+
+/*
 #contact-img{
 height: 15cm;
 width: 16cm;
+display: block;
+margin-left: auto;
+margin-right: 0;
 }
+*/
+
  #submit-rpt{
-    background: linear-gradient(-135deg, rgb(34, 249, 52), rgb(104, 72, 232));
+    background: linear-gradient(-135deg, rgb(34, 249, 52), rgb(232, 72, 72));
     color: #ffffff;
     font-size: large;
     width: 175px;
