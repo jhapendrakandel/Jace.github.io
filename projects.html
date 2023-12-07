@@ -6,27 +6,49 @@
     <title>Projects</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="home.css">
+    <script src="scripts.js"></script>
     <!--here the left side bar starts-->
 </head>
+<!-- mobile vieww hamburger menue-->
+<div class="mbl-menu">
+    <!-- top left logo -->
+    <a href="index.html">
+    <img src="logo.png" id="rtlog-mbl"></a>
+    <!-- hamburger menue -->
+    <div class="container-hmbr" onclick="toggleMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      
+      <div class="hmbr-menue-list" id="dropdownMenu">
+        <p class="btn-hmbr"><a href="index.html">Home</a></p>
+        <p class="btn-hmbr"><a href="About.html">About us</a></p>
+        <p class="btn-hmbr"><a href="projects.html">Projects</a></p>
+        <p class="btn-hmbr"><a href="contact.html">Contact us</a></p>
+      </div>
+    </div>
+<!--hmbrger menue end-->
+
 <body style="background-color: #1c1c1c;">
     <div class="container">
         <div class="sidebar">
-           <span> 
-                <a href="https://jhapendrakandel.github.io/Jace.github.io">
+            <span>
+                <a href="#">
                 <img src="logo.png" id="rtlog"></a>
-                <p id="hm"><a href="https://jhapendrakandel.github.io/Jace.github.io">
+                <p id="hm"><a href="index.html">
                     Home
                 </a> </p>
-                <p id="about"><a href="https://jhapendrakandel.github.io/Jace.github.io/About">
+                <p id="about"><a href="About.html">
                     About
                 </a></p>
-                <p id="projects"><a href="https://jhapendrakandel.github.io/Jace.github.io/projects">
+                <p id="projects" class="active"><a href="projects.html">
                     Projects
                 </a></p>
-                <p id="contact"><a href="https://jhapendrakandel.github.io/Jace.github.io/contact">
+                <p id="contact"><a href="contact.html">
                     Contact Us
                 </a></p>
-             </span>
+            </span>
         </div>
          <!-- main content of webpage starts here -->
          
@@ -42,9 +64,8 @@
             <center>
         <h1 id="prj">Projects</h1>
         <p id="pcnt">
-            Explore our collection of innovative projects, designed to empower you and streamline your operations.
-            We are committed to providing you with cutting-edge solutions that address your specific
-            needs and exceed your expectations. <br> - Jace(J's).
+            Here are some of the projects which are created by us. You can use them easliy for yourself and your business purposes.
+            Keep supporting us and we are here to help you with your technical problems and requirements. <br> - Jase(J's).
         </p>
             </center>
         <!-- now the project with there respective iframe and link will be here-->
