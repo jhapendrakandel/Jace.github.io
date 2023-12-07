@@ -7,51 +7,76 @@
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
     <!--here the left side bar starts-->
 </head>
+<div class="mbl-menu">
+  <!-- top left logo -->
+  <a href="index.html">
+  <img src="logo.png" id="rtlog-mbl"></a>
+  <!-- hamburger menue -->
+  <div class="container-hmbr" onclick="toggleMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    
+    <div class="hmbr-menue-list" id="dropdownMenu">
+      <p class="btn-hmbr"><a href="index.html">Home</a></p>
+      <p class="btn-hmbr"><a href="About.html">About us</a></p>
+      <p class="btn-hmbr"><a href="projects.html">Projects</a></p>
+      <p class="btn-hmbr"><a href="contact.html">Contact us</a></p>
+    </div>
+  </div>
+      
 <body style="background-color: #1c1c1c;">
     <div class="container">
         <div class="sidebar">
-            <span> 
-                <a href="https://jhapendrakandel.github.io/Jace.github.io">
-                <img src="logo.png" id="rtlog"></a>
-                <p id="hm"><a href="https://jhapendrakandel.github.io/Jace.github.io">
-                    Home
-                </a> </p>
-                <p id="about"><a href="https://jhapendrakandel.github.io/Jace.github.io/About">
-                    About
-                </a></p>
-                <p id="projects"><a href="https://jhapendrakandel.github.io/Jace.github.io/projects">
-                    Projects
-                </a></p>
-                <p id="contact"><a href="https://jhapendrakandel.github.io/Jace.github.io/contact">
-                    Contact Us
-                </a></p>
-             </span>
+          <span>
+            <a href="#">
+            <img src="logo.png" id="rtlog"></a>
+            <p id="hm"><a href="index.html">
+                Home
+            </a> </p>
+            <p id="about" class="active"><a href="About.html">
+                About
+            </a></p>
+            <p id="projects"><a href="projects.html">
+                Projects
+            </a></p>
+            <p id="contact"><a href="contact.html">
+                Contact Us
+            </a></p>
+        </span>
          </div>
          <!-- main content of webpage starts here -->
-         <div class="content">
+         <div class="content-abt">
             <!--About company-->
             <center>
          <img src="logo.png" alt="owner pics" id="myimg">
             </center>
-            <h3 id="cmpname">Jace(J's)</h3>
-            <!--line bellow Jace-->
+            <h3 id="cmpname">Jase(J's)</h3>
+            <!--line bellow jase-->
             <hr id="cmphr">
-             <p id="hccnt">Welcome to Jace(j's)</p>
+            <p id="hccnt">Welcome to Jase(j's). Jase is a small tecnological growing company. 
+                We are here to help you with yor your problem by providing our created projects.
+                 We have created a bunch of various projects which can be very useful to our users. 
+                 We have created a Resturant website which provides fantastic food with great taste.
+                  Likewiese We have createda Webpagfor renting A commercial bulding in Kathmandu for 
+                  commercial purpose you can easily.</p>
          <!--About owner-->
             <center>
             <img src="myimg.png" alt="owner pics" id="myimg">
             </center>
-            <h3 id="name">Jhapendra kandel</h3>
+            <h3 id="name">Jhapendra kandel(Owner)</h3>
             <!--line bellow my name-->
             <hr id="namehr">
             <p id="hcnt">Welcome to my website! Here, you can learn more about me, my projects.</p>
             <p id="hcnt">Name: Jhapendra kandel.</p>
-            <p id="hcnt">Age: xx year.</p>
+            <p id="hcnt">Age: 1x year.</p>
             <p id="hcnt">Skills: Web-designer, Webpag/Website developer, Photographer.</p>
             <p id="hcnt">Education: Currently Pursuing High School.</p>
-            <p id="hcnt">Objective: To learn new things.</p>
+            <p id="hcnt">Objective: To make an International Teachnical Company.</p>
             <br>
              <br>
              <div>
