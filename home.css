@@ -5,6 +5,12 @@
     .sidebar {
       display: none;
     }
+    .bg-video{
+      display: none;
+    }
+    .bg-clr{
+      display: none;
+    }
   }
   /* for the logo in mobile view*/
   @media (min-width:601px) {
