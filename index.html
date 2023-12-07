@@ -2,39 +2,59 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.7">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <title>Home</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="home.css">
+    <script src="scripts.js"></script>
     <!--here the left side bar starts-->
 </head>
-<body style="background-color: #1c1c1c;">
+<body>
+    <div class="mbl-menu">
+    <!-- top left logo -->
+    <a href="index.html">
+    <img src="logo.png" id="rtlog-mbl"></a>
+    <!-- hamburger menue -->
+    <div class="container-hmbr" onclick="toggleMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      
+      <div class="hmbr-menue-list" id="dropdownMenu">
+        <p class="btn-hmbr"><a href="index.html">Home</a></p>
+        <p class="btn-hmbr"><a href="About.html">About us</a></p>
+        <p class="btn-hmbr"><a href="projects.html">Projects</a></p>
+        <p class="btn-hmbr"><a href="contact.html">Contact us</a></p>
+      </div>
+    </div>
+
+<!-- menu for large screen top bar -->
     <div class="container">
         <div class="sidebar">
-           <span> 
-                <a href="https://jhapendrakandel.github.io/Jace.github.io">
+            <span>
+                <a href="#">
                 <img src="logo.png" id="rtlog"></a>
-                <p id="hm"><a href="https://jhapendrakandel.github.io/Jace.github.io">
+                <p id="hm" class="active"><a href="index.html">
                     Home
                 </a> </p>
-                <p id="about"><a href="https://jhapendrakandel.github.io/Jace.github.io/About">
+                <p id="about"><a href="About.html">
                     About
                 </a></p>
-                <p id="projects"><a href="https://jhapendrakandel.github.io/Jace.github.io/projects">
+                <p id="projects"><a href="projects.html">
                     Projects
                 </a></p>
-                <p id="contact"><a href="https://jhapendrakandel.github.io/Jace.github.io/contact">
+                <p id="contact"><a href="contact.html">
                     Contact Us
                 </a></p>
-             </span>
+            </span>
         </div>
          <!-- main content of webpage starts here -->
          <div class="content">
-            <h1 id="home">Hello! We are Jace(j's).</h1>
+            <video class="bg-video" src="video.mp4" loop muted autoplay></video> 
+            <h1 id="home">Hello! Welcome to Jase(j's).</h1>
             <h5 id="home2">Meet the future with our cutting-edge technology</h5>
-            <center>
-                <img id="hmlog" src="logo.png">
-            </center>
-         </div>
+        </div>
+        </div>
          </html>
           
