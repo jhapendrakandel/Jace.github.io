@@ -6,7 +6,12 @@
         margin-left: -50px;
     }
 }
+
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 40px;
     color: black;
     transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
@@ -16,7 +21,7 @@ body{
     height: 567px;
     width: 600px;
     outline-color: aquamarine;
-    padding: 30px 40px 100px 40px;
+    padding: 30px 40px 150px 40px;
 }
 button{
     float: right;
@@ -119,8 +124,7 @@ margin-right: 1cm;
 
 hr{
     margin-top: 20px;
-    width: 670px;
-    margin-left: -1px;
+    width: 680px;
 }
 #btm-logo{
     height: 3cm;
@@ -149,7 +153,7 @@ a{
     color: rgb(58, 111, 209);
 }
 .Aboutme{
-    margin-top: 100px;
+    margin-top: 95px;
     margin-bottom: -50px;
     padding-left: 80px;
     font-weight: 600;
@@ -157,22 +161,42 @@ a{
     font-size: xx-large;
     background-color: rgb(255, 255, 255);
 }
-.Aboutme .prm-txt{
+.prm-txt{
+    margin-top: 90px;
+    margin-bottom: -90px;
+    padding-left: 80px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: xx-large;
+    display: flex;
     color:rgb(0, 157, 255);
 }
 .Aboutme .first-text{
     color: black;
+    animation: animate-abt 5s infinite;
 }
+/* was use to make the typing effect 
 .Aboutme .first-text::before{
     content: "";
     position: absolute;
     height: 37px;
     width: 180px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
     border-left: 2px solid blue;
-    animation: animate-abt 5s steps(12) infinite;
-}
+    animation: animate-abt 2s infinite;
+}  */
+@keyframes animate-abt {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 
+/* a part of typing effects animation
 @keyframes animate-abt {
     0% {
         left: 240px;
@@ -196,7 +220,8 @@ a{
         left: 430px;
     }
 }
-  
+*/
+/* marquee about me 
 #marquee{
     display: none;
     margin-top: 40px;
@@ -204,6 +229,7 @@ a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(239, 126, 126);
 }
+*/
 /* here is the css for unwanted part of web */ 
 .unwanted{
     text-align: right;
