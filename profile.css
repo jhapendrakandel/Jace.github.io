@@ -169,11 +169,9 @@ a{
     border-radius: 20px;
     font-size: xx-large;
     display: flex;
-    color:rgb(0, 157, 255);
 }
 .Aboutme .first-text{
-    color: black;
-    animation: animate-abt 5s infinite;
+    animation: animate-abt 5s infinite ease-in-out;
 }
 /* was use to make the typing effect 
 .Aboutme .first-text::before{
