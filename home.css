@@ -318,22 +318,131 @@ img{
     margin-left: 0;
     margin-right: 0;
 }
-#hmcont{
-    color: azure;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* ------------------------------------- here starts the slide devloper prolie--------------- */
+*{
+  padding: 0;
+  margin: 0;
 }
-#hmlog{
-    height: 20cm;
-    width: 13cm;
+.dev-profile{
+  height: 600px;
+  background-color: rgb(172, 172, 172);
 }
-.content-1{
+.dev-profile #title-dv{
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap-profiles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dev-profile .profile{
+  height: 400px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+.profile:hover{
+  transform: translateY(-15px);
+}
+@media (min-width:451px) {
+  .dev-profile .profile{
+    margin: 5%;
+  }
+}
+
+@media(max-width:450px){
+  .dev-profile .profile{
+    margin: 1px;
+  }
+}
+.profile .profile-head{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-color: #7719e4;
+  height: 30%;
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  width: 100vw;
-  height: 100vh;
-  background-color: white;
+  align-items: center;
+}
+/* body style */
+.profile-body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+}
+/* here insert id and edit profile image */
+.pp{
+  margin-top: 30px;
+  border-radius: 70px;
+  border: #19e489 solid 2px;
+}
+/* styles for name */
+
+.profile-body .dev-name{
+  font-weight: 600;
+  font-size: 15px;
+}
+.profile-body .spect{
+  font-weight: 500;
+  font-size: 15px;
+}
+.profile-body .email{
+  font-weight: 900;
+  font-size: 15px;
+}
+/* this the rating in stars */
+.checked {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: rgb(255, 166, 0);
+}
+.social-media{
+  display: flex;
+  gap: 20px;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+@media (max-width: 1700px) {
+  .dev-profile .profile{
+    margin: 10px;
+    width: calc(100% / 2 - 10px);
+  }
+}
+/*
+@media (max-width: 600px) {
+  .dev-profile .profile{
+    margin: 20px 0 10px 0; 
+    width: 100%;
+  }
+}
+*/
+.btn-box{
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+.button{
+  width: 90px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 30px;
+  font-size:20px;
+  padding: 5px;
+  color: white;
+  background-color: #464545;
+}
+.button:hover{
+  background-color: #7719e4;
+  cursor: pointer;
 }
 /* --------------------------------------- skill bar --------------------------------------- */
 .content-abt{
