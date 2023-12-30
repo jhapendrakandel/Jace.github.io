@@ -45,7 +45,6 @@ button:hover{
     filter: blur(2px);
 }
 .name{
-    text-align: left;
     margin-top: -5cm;
     margin-left: 7cm;
     margin-bottom: -16px;
@@ -53,7 +52,7 @@ button:hover{
     font-size: 35px;
     margin-bottom: 20px;
 }
-.coding{
+#coding{
     height: 15px;
     width: 15px;
     margin-left: 270px;
@@ -64,7 +63,7 @@ button:hover{
     margin-top: -20px;
 
 }
-.location{
+#location{
     height: 15px;
     width: 15px;
     margin-left: 270px;
@@ -133,6 +132,7 @@ hr{
 #btm-lctn{
     margin-left:-100px;
     height: 30px;
+    font-size: 20px;
 }
 #sd-cnt{
     margin-top: -30px;
@@ -159,6 +159,7 @@ a{
     font-weight: 600;
     border-radius: 20px;
     font-size: xx-large;
+
 }
 .prm-txt{
     margin-top: 90px;
