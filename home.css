@@ -23,7 +23,6 @@
   }
 /* this is the media screen visiblity of hamburger menu in mobile hor any device having width less tahn 600px */
 @media (max-width:600px) {
-  
 .mbl-menu{
     background-color: transparent;
     width: 100%;
@@ -69,7 +68,7 @@
     color: #ffffff;
     min-width: 100px;
     box-shadow: 0px 15px 20px rgba(0,0,0,4);
-    z-index: 2;
+    z-index: 1;
     animation: dropdownAnimation 0.5s;
     border-radius: 15px;
   }
@@ -77,9 +76,10 @@
   @keyframes dropdownAnimation {
     0% {
       opacity: 0.1;
-      background-color: #606060;
+      background-color: #fffdfd;
     }
-  
+
+  /*
     10% {
       opacity: 0.2;
       background-color: #aeaeae;
@@ -94,7 +94,7 @@
       opacity: 0.4;
       background-color: #acaaaa;
     }
-  
+
     40% {
       opacity: 0.6;
       background-color: #b8b8b8;
@@ -107,14 +107,16 @@
   
     60% {
       opacity: 0.8;
-      background-color: #dadcdc;
+      background-color: #3e3e3e;
     }
   
     70% {
       opacity: 0.9;
-      background-color: rgb(139, 138, 138)
+      background-color: rgb(89, 89, 89)
 
     }
+    */
+
     100%{
         opacity: 1;
         background-color: #646464;
@@ -164,6 +166,7 @@
   height: 70vh;
   width: 100vw;
 }
+/*8vh is the standard height for log.png*/
 #rtlog{
     height: 8vh;
     position: fixed;
@@ -187,6 +190,14 @@
     background-color: #000000;
     position: fixed;
     top: 0;
+}
+#sidebar-home{
+  width: 100%;
+  height: 8vh;
+  background-color: transparent;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
 }
 #hm{
     background-clip: content-box;
@@ -217,10 +228,7 @@
 .sidebar p a:hover {
     color: #f73f3f;
     background-color: rgb(255, 255, 255);
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px 20px 5px 20px;
 }
 
 /* hehe (..) */
@@ -233,7 +241,7 @@
     100% {
       transform: translateY(-10px);
       background-color: rgb(255, 255, 255);
-      padding: 20px 20px 10px 20px;
+      padding: 15px 20px 5px 20px;
     }
   }
   
@@ -267,30 +275,28 @@ img{
 }
 
 /* --------------------------------------- home page content --------------------------------------- */
-
 #home{
     color: #fa3838;
-    text-align: center;
 }
 #home2{
     color: #fa3838;
-    text-align: center;
 }
 #hcnt{
+  display: flex;
+  justify-content: center;
     color: #39f9e6;
     font-family: cursive;
-    font-size: 0.5cm;
+    font-size: 19px;
     padding: 4px;
     padding-left: 20px;
 }
 #hccnt{
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 0.5cm;
-    padding: 4px;
+    font-size: 19px;
     padding-left: 20px;
 }
-#myimg{
+#myorgimg{
     border-radius: 70%;
     align-content: center;
     margin-bottom: -5px;
@@ -324,16 +330,28 @@ img{
   margin: 0;
 }
 .dev-profile{
-  height: 600px;
+  height: 750px;
+  padding: 0px;
   background-color: rgb(172, 172, 172);
 }
 .dev-profile #title-dv{
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 1px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+/* frame */
+.frame-dev{
+  z-index: 2;
+  height: calc(100%);
+  width: calc(100%);
+  border-radius: 20px;
+}
+/*end of frame */
+
+/* this was our previous idea of few profile but not resoponsive 
+just make th diplay:non to flex; to make it in use */
 .wrap-profiles{
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -430,13 +448,16 @@ img{
   padding-top: 30px;
   justify-content: center;
 }
+/* just remove the whole line of this coe to make more button in use
+ remove this coe to use the button display: none; */
 .button{
+  display: none;
   width: 90px;
   border-radius: 20px;
   text-align: center;
   line-height: 30px;
   font-size:20px;
-  padding: 5px;
+  padding: 20px;
   color: white;
   background-color: #464545;
 }
@@ -444,6 +465,7 @@ img{
   background-color: #7719e4;
   cursor: pointer;
 }
+/* end of profiles sliders */
 /* --------------------------------------- skill bar --------------------------------------- */
 .content-abt{
   padding-bottom: 40px;
@@ -460,34 +482,38 @@ img{
 #skl{
     text-align: center;
     padding-left: 20px;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     margin-top: 2cm;
 }
 .containerskl{
-    width: 100%;
-    background-color: #ddd;
+    width: 99%;
+    background-color: #ffffff;
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
   }
   
   .skills {
+    border-radius: 15px;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: rgb(221, 183, 183);
+    color: rgb(90, 238, 134);
   }
   
-  .Programming {width: 90%; background-color: #202020; border-radius: 10px;}
-  .Photography {width: 80%; background-color: #202020; border-radius: 10px;}
-  .photoshop {width: 65%; background-color: #202020; border-radius: 10px;}
+  .Programming {width: 90%; background-color: #5f5f5f; border-radius: 10px;}
+  .Photography {width: 80%; background-color: #5f5f5f; border-radius: 10px;}
+  .photoshop {width: 65%; background-color: #5f5f5f; border-radius: 10px;}
 
   .row {
     margin-top: 3cm;
     height: 3cm;
     display: flex;
     flex-wrap: wrap;
-    background-color: #ffffff;
+    /* use any one of bg color choices //
+    background-color: white;
+    */
+    background: linear-gradient(120deg, #e54a4a, #6650d4, #354fd0, #00bfff, #50d48d, #d49d50);
     border-radius: 15px;
     margin-left: 10px;
   }
@@ -510,7 +536,7 @@ img{
   
   .label {
     font-size: 14px;
-    color: #797979;
+    color: #000000;
   }
   #resume{
     padding-top: 10px;
@@ -558,7 +584,7 @@ img{
     padding: 20px;
 }
 #under-maintainance1{
-    padding: 20px;
+    padding: 0px 0px 0px 20px;
     text-align: left;
     color: #ffffff;
     font-size: 17px;
